@@ -16,7 +16,7 @@ body{
 }
 .info{
     font-family: 'Times New Roman', Times, serif;
-    margin: 150px 50px 50px 50px;
+    margin: 150px 150px 50px 150px;
     font-size: 50px;
     display: flex;
     flex-direction: column;
@@ -24,10 +24,10 @@ body{
     color:transparent;
     text-decoration: solid;
     background-color: transparent;
-    border-radius: 100px;
     transition: 2s;
 }
 .info:hover{
+    background-color: transparent;
     text-shadow: 1px 1px 2px rgb(255, 255, 254);
     color:gold;   
 }
