@@ -21,9 +21,9 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    color:red;
+    color:transparent;
     text-decoration: solid;
-    background-color: white;
+    background-color: transparent;
     border-radius: 100px;
     transition: 2s;
 }
