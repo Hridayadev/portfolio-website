@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing table</title>
+    <style>
+        body{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    background-image: url(Downloader-La-xTkIiYwS7d.jpg)
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh 10vw 10vh 10vw;
+    gap: 3vw;
+}
+.standard{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 26px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    border: 2px solid blue;
+}
+.premium{
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 26px;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;  
+    border: 2px solid green; 
+}
+.basic{
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 26px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    border: 2px solid red;
+    
+}
+hr{
+    width: 10rem;
+    height: 1px;
+    background-color: white;
+    margin-top: -10px;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+    filter: opacity(0.5);
+    padding: 0;
+    margin-top: 0px;
+}
+.hr2{
+    width: 7rem;
+    height: 1px;
+    background-color: white;  
+    margin-top: -40px; 
+    margin-bottom: 20px;
+}
+.ch{
+    color: black;
+    filter: opacity(1);
+}
+h1{
+    font-size: 3rem;
+}
+.price{
+    color: black;
+    filter: opacity(1);
+    font-size: 3rem;   
+}
+span{
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(241,241,241);
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.buynow1{
+    border: transparent;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.buynow2{
+    border: transparent;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.buynow3{
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+button:hover{
+    filter: opacity(0.5);
+    cursor: pointer;
+}
+.all .basic input[type=checkbox] {
+    width: 20px;
+    height: 15px;
+   accent-color: orange ;
+   opacity: 0.8;
+
+}
+.all .standard input[type=checkbox] {
+    width: 20px;
+    height: 15px;
+   accent-color: blue ;
+   opacity: 0.6;
+
+}
+.all .premium input[type=checkbox] {
+    width: 20px;
+    height: 15px;
+   accent-color: green;
+   opacity: 0.6;
+
+}
+@media (min-width: 318px) and (max-width: 480px){
+    .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        background-color: transparent;
+    }
+}
+@media (max-width: 317px) {
+    .all{
+        margin-top: 2px;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+        
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="standard">
+            <h1>Standard</h1><hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae libero.</p>   
+            <nav>
+            <p class="price">$35 <span>/month</span><hr class="hr2">
+            <p class="ch"><input type="checkbox" checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="buynow2">Buy now</button>
+            </nav> 
+        </div>
+        <div class="basic">
+            <h1>Basic</h1><hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae libero.</p>   
+            <nav>
+            <p class="price">$20 <span>/month</span><hr class="hr2">
+            <p class="ch"><input type="checkbox" checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="buynow1">Buy now</button>
+            </nav> 
+        </div>
+        <div class="premium">
+            <h1>Premium</h1><hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae libero.</p>   
+            <nav>
+            <p class="price">$50 <span>/month</span><hr class="hr2">
+            <p class="ch"><input type="checkbox" checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="ch"><input type="checkbox"checked>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button class="buynow3">Buy now</button>
+            </nav> 
+        </div>
+
+    </div>
+
+</body>
+</html> 
