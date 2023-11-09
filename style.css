@@ -14,26 +14,4 @@ body{
     font-size: 60px;
     text-shadow: 1px 1px 2px rgb(255, 255, 254);
 }
-.info{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 150px 150px 50px 150px;
-    font-size: 50px;
-    display: flex;
-    flex-direction: column;
-    color:transparent;
-    text-decoration: solid;
-    background-color: transparent;
-    transition: 2s;
-}
-.info:hover{
-    background-color: transparent;
-    text-shadow: 1px 1px 2px rgb(255, 255, 254);
-    color:gold;   
-}
 
-span:hover{
-    transition: 1.5s;
-    font-size: 50px;
-    padding-left: 10px;
-
-}
