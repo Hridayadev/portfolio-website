@@ -18,9 +18,7 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* background-color: green; */
     box-shadow: 5px 5px 10px black;
-    /* border: 3px solid black; */
     transition: all ease 0.25s;
 }
 header{
@@ -201,7 +199,6 @@ header .logo img{
 }
 .rectangle3 .haha .blogtitle h1{
     text-align: center;
-    /* text-decoration: underline; */
     font-size: 23px;
     text-shadow: 3px 3px 5px black;
     font-family: 'Times New Roman', Times, serif;
@@ -221,7 +218,6 @@ header .logo img{
     filter: saturate(2);
 }
 .main .second .rectangle4{
-    /* height: 500px; */
     height: fit-content;
     width: 700px;
     flex-direction: column;
@@ -231,7 +227,6 @@ header .logo img{
 }
 .rectangle4 .projectbox .project-head h1{
     text-align: center;
-    /* text-decoration: underline; */
     font-size: 23px;
     text-shadow: 3px 3px 5px black;
     font-family: 'Times New Roman', Times, serif; 
@@ -270,7 +265,6 @@ header .logo img{
 }
 .rectangle5 .aboutme .about-title h1{
     text-align: center;
-    /* text-decoration: underline; */
     font-size: 23px;
     text-shadow: 3px 3px 5px black;
     font-family: 'Times New Roman', Times, serif;    
@@ -280,8 +274,6 @@ header .logo img{
     flex-direction: column;
 }
 .details13{
-    /* height: fit-content;
-    width: 669px; */
     display: flex;
     flex-direction: column;
     color: whitesmoke;
@@ -372,8 +364,6 @@ footer{
         max-width: 220px;
         height: 50px;
     }
-
-
 }
 
 @media (min-width:319px) and (max-width: 480px){
@@ -454,7 +444,6 @@ footer{
         padding: 0;
         
     }
-
     .rectangle{
         max-width: 445px;
     }
