@@ -303,6 +303,74 @@ footer{
     filter: opacity(0.1);
 }
 
+@media (min-width: 220px) and (max-width:318px){
+    .all{
+        max-width: 230px;
+        /* background-color: green; */
+    }
+    .all .logo img{
+        filter: opacity(0);
+        /* display: none; */
+    }
+    .all header .elements{
+        height: 50px;
+        width: 225px;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        position: fixed;
+    }
+    .item{
+        font-size: 10.5px;
+    }
+    .all .main .image .mainphoto img{
+        width: 215px;
+        height: 215px;
+    }
+    .rectangle{
+        max-width: 205px;
+        height: fit-content;
+    }
+    .main .first{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        gap: 40px;
+    }
+    .main .first .content p{
+        font-size: 16px;
+    }
+    .main .rectangle2{
+        height: fit-content;
+        max-width: 220px;
+    }
+    .main .second .rectangle3{
+        max-width: 220px;
+    }
+    .main .second .rectangle3 .blogs .first-blog img{
+        width: 160px ;
+        height: 25px;
+    }
+    .main .second .rectangle4{
+        max-width: 220px;
+    }
+    .sida1  img{
+        height: 50px;
+        width: 80px;
+    }
+    .main .rectangle5{
+        max-width: 220px;
+    }
+    .lahai{
+        font-size: 11px;
+    }
+    footer{
+        max-width: 220px;
+        height: 50px;
+    }
+}
 
 @media (min-width:319px) and (max-width: 480px){
     
