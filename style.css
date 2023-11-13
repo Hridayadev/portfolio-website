@@ -126,8 +126,10 @@ header .logo img{
     font-family: 'Times New Roman', Times, serif;
 }
 .main .first .rectangle .name:hover{
-    filter: opacity(0.2);
-    font-size: 25px;
+    filter: opacity(0.5);
+}
+.main .first .rectangle .name::selection{
+    color: red;
 }
 .main .first .rectangle p{
     font-size: 20px;
