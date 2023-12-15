@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie review</title>
+    <style>
+        body{
+    background-color: #495E57;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color:#F5F7F8;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif 4', serif;
+    scroll-behavior: smooth;
+}
+.section1{
+    background-color:#45474B;
+    padding: 8px;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.section1 .heading{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Serif 4', serif;
+    color: #F4CE14;
+    align-self: center;
+    font-size: 1.23rem;
+}
+.tuppo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    
+}
+.bt1{
+    background-color: #495E57;
+    border-radius: 25px;
+    margin-left: 10px;
+    color: #F5F7F8;
+    font-weight: 620;
+    border: none;
+    box-shadow: 2px 2px 3px black ;
+    height: 29px;
+    width: 4rem;
+    cursor: pointer;
+}
+.bt1:hover{
+    filter: brightness(0.8);
+}
+.search{
+    font-size: large;
+}
+.review{
+    padding: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+h2{
+    font-size: 29px;
+    color: #F5F7F8;
+    font-weight: 620;
+}
+a{
+    color:#F4CE14;
+    text-decoration: none;
+}
+a:hover{
+    color: #F5F7F8;
+}
+
+.image{
+  position: relative;  
+  float: left;
+  margin-right: 1rem;
+  padding: 3px;
+  
+}
+img{
+    height: 15rem;
+    width: 30rem;
+}
+.say{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 24px;
+    text-align: start;
+    
+}
+.ratee{
+    text-align: center;
+}
+.section3{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+h3{
+ color: #F4CE14;
+ align-self: center;
+}
+footer{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(46, 46, 46);
+    filter: opacity(0.4);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+} 
+.note{
+    font-size: 10px;
+    filter: opacity(0.4);
+}
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Source+Serif+4:ital,opsz,wght@1,8..60,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:ital,wght@1,100&family=Source+Serif+4:ital,opsz,wght@1,8..60,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="section1">
+        <div class="heading"><h1>Movie Review</h1></div>
+        <div class="tuppo">
+            <div class="buttonstop">
+                <a href="https://www.hridayadev.com.np/" target="_blank"><button class="bt1" title="Main site">HOME</button> </a>
+                <a href=""><button class="bt1" title="send your review">SEND</button></a>
+            </div>
+            <div class="search">Search:<input type="search" placeholder="search a movie" style=" background-color: #495E57; box-shadow: none; border: none;border-radius: 5px; height: 29px;margin-left:3px;"></div> 
+        </div>
+    </div>
+    <section class="review">
+        <div class="mname"><h2>1. <a href="" target="_blank">The BOYS</a></h2></div>
+        <div class="sayimg">
+            <div class="image">
+                <img src="imges/boys.jpg" alt="The boys imge">
+                <div class="ratee">Rating: <a href="https://www.imdb.com/title/tt1190634/?ref_=fn_al_tt_1" target="_blank">&#11088; &#11088; &#11088; &#11088; &#11088;</a></div>
+            </div>
+            <div class="say">
+                Think superheroes, but way more messed up. Like, exploding heads and evil corporations messed up.  This show throws punches (and sometimes laser eyes) to show that good guys ain't always so good, and bad guys can be weirdly charming.Prepare to laugh, flinch, and question everything you thought you knew about heroes. It's like a rollercoaster made of violence, humor, and thinking real hard.
+                    "The Boys" is basically the most fun you can have while feeling horrified. It's like your favorite comic book, but with an R rating and a whole lot more swearing.
+                    So, if you're down for a wild ride, buckle up and dive in. Just maybe keep some snacks handy for when things get...spicy. ️
+                  
+            </div>
+        </div>
+
+        <div class="mname"><h2>2. <a href="" target="_blank">Game of thrones</a></h2></div>
+        <div class="sayimg">
+            <div class="image">
+                <img src="imges/GOT.jpg" alt="got imge">
+                <div class="ratee">Rating: <a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_1_tt_7_nm_0_q_game" target="_blank">&#11088; &#11088; &#11088; &#11088; &#11088;</a></div>
+            </div>
+            <div class="say">
+                Winter's coming, but the drama's already hot in Game of Thrones!  Backstabbing, dragons, and epic battles - it's like medieval soap opera on steroids. You'll love, hate, and maybe even cheer for characters who'll switch sides faster than a Targaryen on a dragon.
+                Prepare for twists that'll leave you gasping (and maybe cursing the writers).  Remember Ned Stark? Yeah, good times. This show's got more deaths than a White Walker convention, so buckle up and grab your tissues. ⚔️
+                But hey, all that drama comes with stunning visuals and a world so rich, you could practically smell the dragon breath. ❄️ It's like getting lost in a fantasy novel, but with way more wine and nudity.
+                So, if you're down for a wild ride through Westeros, Game of Thrones is your winter binge-fest. Just don't get too attached to any characters...unless you like your heart broken colder than the Wall.                
+            </div>
+        </div>
+
+        <div class="mname"><h2>3. <a href="" target="_blank">Avengers Endgame</a></h2></div>
+        <div class="sayimg">
+            <div class="image">
+                <img src="imges/endgame.jpg" alt="endgame imge">
+                <div class="ratee">Rating: <a href="https://www.imdb.com/title/tt4154796/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_avengers%2520endg" target="_blank">&#11088; &#11088; &#11088; &#11088; &#11088;</a></div>
+            </div>
+            <div class="say">
+                Avengers: Endgame is basically the epic family reunion you never had, but with way more explosions and superheroes in tights.  Remember that Thanos guy who snapped half the universe away? Well, the gang's back to kick his cosmic butt, time travel style! ⌚️
+                Think action-packed battles like a giant cosmic mosh pit, with Iron Man rocking his final encore and Captain America wielding the hammer like a total boss.  Plus, there's enough emotional punch-to-the-gut moments to make even Hulk cry (and trust me, that's saying something).
+                But it's not all capes and lasers, Endgame also takes a heartfelt look at what makes these heroes tick. We see Thor battling depression, Black Widow facing her past, and even Hawkeye getting a chance to be a dad. It's like a superhero therapy session gone right, with a sprinkle of time travel shenanigans.
+                So grab your popcorn, tissues, and maybe a therapist on speed dial, because Endgame is a rollercoaster ride of emotions, explosions, and everything in between. Just be warned, you might leave the theater wanting to assemble your own team of misfits and save the world (or at least clean your room).
+                <br>Bonus points: Keep an eye out for all the Easter eggs and callbacks to past movies - it's like a giant Marvel treasure hunt for fans!
+            </div>
+        </div>
+
+        <div class="mname"><h2>4. <a href="" target="_blank">The butterfly effect</a></h2></div>
+        <div class="sayimg">
+            <div class="image">
+                <img src="imges/butterfly.jpg" alt="butterfly imge">
+                <div class="ratee">Rating: <a href="https://www.imdb.com/title/tt0289879/?ref_=nv_sr_srsg_1_tt_6_nm_1_q_the%2520butterfly" target="_blank">&#11088; &#11088; &#11088; &#11088; &#11088;</a></div>
+            </div>
+            <div class="say">
+                Butterfly wings ripple through time, twisting Evan's life into a mind-bending kaleidoscope. Forget predictable do-overs; this time travel throws him headfirst into a chaotic carousel of alternate realities, each triggered by a seemingly insignificant butterfly of an action in his past.
+                Prepare for whiplash-inducing twists that'll leave you gasping and questioning everything you know about cause and effect. One moment Evan's a carefree college kid, the next he's a deaf outcast or a lobotomized shell. It's like a twisted game of "what if," where the butterfly effect on steroids holds the remote control to his ever-shifting destiny.
+                But it's not just a mind-bender; The Butterfly Effect packs a gut punch. Evan's desperate attempts to fix his past lead to increasingly horrifying consequences, forcing him to confront the dark corners of his own choices. Think "Groundhog Day" meets "Memento" with a generous dash of psychological thriller.
+                So buckle up for a rollercoaster ride through Evan's fractured reality, where every choice is a butterfly flap, every consequence a hurricane. Just remember, with this time-bending twist on fate, nothing is ever truly fixed. And the price of changing your past might be far higher than you ever imagined.
+            </div>
+        </div>
+
+        <div class="mname"><h2>5. <a href="" target="_blank">The Shawshank Redemption
+        </a></h2></div>
+        <div class="sayimg">
+            <div class="image">
+                <img src="imges/Shawshank.jpg" alt="Shawshank imge">
+                <div class="ratee">Rating: <a href="https://www.imdb.com/title/tt0111161/?ref_=nv_sr_srsg_1_tt_1_nm_7_q_sashank" target="_blank">&#11088; &#11088; &#11088; &#11088; &#11088;</a></div>
+            </div>
+            <div class="say">
+                Stone walls loom, casting long shadows on a life stolen. Andy Dufresne, wrongly convicted of murder, finds himself confined within the brutal Shawshank prison. Yet, even within these oppressively dark walls, a defiant ember of hope flickers to life.Morgan Freeman's voice, rich with wisdom and the passage of time, guides us through a tapestry of 
+                resilience and friendship. We witness Andy's quiet strength, his unwavering belief in freedom, and the inspiring bond he forges with Red, a fellow inmate who becomes both confidante and witness to his extraordinary journey.This cinematic masterpiece isn't just a film; it's a testament to the power of hope, a reminder that even in the darkest corners,
+                 freedom can bloom. So, grab your popcorn and prepare to be swept away by a story that will stay with you long after the credits roll.
+                <br>Bonus tip: Keep an ear open for the iconic Mozart sonata, a symbol of Andy's unwavering spirit, that will leave you with goosebumps every time it plays.
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="section3">
+        <h3>Watch with me</h3>
+        <iframe 
+            src="https://www.youtube.com/embed/1B-nSnwNcDA?si=Ye_JC1R2Sg6022go&amp;start=11" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen
+        ></iframe>
+    </div>
+    <footer>
+        <div class="note">note: it is my personal openion about movies you may have different openion than mine.</div>
+        <div>&#169;hridaya</div>
+    </footer>
+</body>
+</html> 
